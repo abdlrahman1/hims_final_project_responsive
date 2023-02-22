@@ -1,0 +1,164 @@
+
+.overview_container * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: sans-serif;
+  }
+  .overview_container {
+    width: 80%;
+    height: fit-content;
+    background-color: #fff;
+    margin: 0px 10%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .overview_header {
+    border-bottom: 2px solid gray;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .account_det, .news_letter, .address {
+    border: 1px solid gray;
+    height: 25vh;
+    margin: 10px;
+    width: 570px;
+    float: left;
+    border-radius: 10px;
+  }
+  .account_det_header,.news_header, .adrs_header {
+    height: 40px;
+    width: 90%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+  }
+  .fas{
+    font-size: 20px;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .fas:hover{
+    background-color: #0004;
+  }
+  .adrs_header {
+    width: 100%;
+  }
+  .edit_sign {
+    width: 10%;
+    height: 40px;
+    float: right;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+  }
+  .account_name, .email, .explanation, .check, .ad_1, .ad_2, .explain_1, .explain_2 {
+    width: 100%;
+    padding: 10px;
+  }
+  .explain_2 {
+    color: gray;
+  
+  }
+  .adrs_footer a {
+    margin: 10px;
+    text-decoration: none;
+    color: #66c;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .adrs_footer a:hover {
+    background: #66c3;
+    transition: 0.5s;
+  }
+  .check {
+    height: 50px;
+    color: gray;
+  }
+  .email {
+  color: gray;
+  font-size: 14px;
+  margin-top: -15px;
+  }
+  .change_pass a {
+    padding: 10px;
+    margin: 20px 0px 0px 10px;
+    text-decoration: none;
+    color: #66c;
+    border-radius: 10px;
+  }
+  .change_pass a:hover {
+    background-color: #66c3;
+    transition: 0.5s;
+  }
+  .add_ad {
+    width: 45%;
+    height: 40px;
+    padding: 10px;
+  }
+  .add_ad:hover {
+    background-color: #e0bfa0;
+    transition: 0.5s;
+  }
+  .container{
+    width: 80%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    padding: 15px;
+    margin: 20px auto;
+  }
+  .container_header{
+    background-color: #3f51b5;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 0px 7px 15px #3f51b5;
+  }
+  .container_header h2{
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+  }
+  .container_header a{
+    float: right;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+  }
+  .container_header a:hover{
+    position: relative;
+    left: 3px;
+  }
+  .products{
+    width: 220px;
+    height: 45vh;
+    padding: 0px 0px 10px 10px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  .products:hover{
+    box-shadow: 5px -5px 10px 3px #222;
+  }
+  .products img{
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+  }
+  .products h3{
+    font-weight: bold;
+    margin: 4px 0px;
+  }
+  

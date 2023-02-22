@@ -1,0 +1,116 @@
+
+.sign_up_con{
+
+width: 500px;
+background-color: #B3CAFF;
+position: absolute;
+top: 50%; right: 50%;
+transform: translate(50%,-50%);
+padding: 50px;
+text-align: center;
+display: flex;  
+flex-direction: column;
+border-radius: 10px;
+display: none;
+z-index: 100;
+}
+
+.fa-solid.fa-x.remove_mark_signup{
+position: absolute;
+right: 0;
+top:0;
+font-size: 40px;
+cursor: pointer;
+background-color: red;
+border-radius: 50%;
+padding: 2px 5px 2px 5px;
+color:white;
+}
+.sign_up_con .icons{
+width:100% ;
+height: fit-content;
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding: 10px;
+
+}
+.icons .icon{
+
+background-color: #C5D7FF;
+border-radius: 50%;
+margin:6px;
+width: 100px;
+padding: 15px;
+font-size: 50px;
+color:white;
+}
+.fa-brands{
+color:brown;
+font-size: 25px;
+border-radius: 50%;
+
+}
+
+.input_con{
+width: 100%;
+height: fit-content;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.input_con input{
+margin: 8px auto 8px auto;
+width: 70%;
+height: 45px;
+border: none;
+padding-left: 10px;
+transition: .5s;
+border-radius: 10px;
+}
+.input_con input:hover{
+width: 85%;
+}
+.login_btn{
+
+width: 100%;
+
+display: flex;
+justify-content: center;
+padding: 10px;
+
+}
+.login_btn button{
+border: none;
+border-radius: 10px;
+width: 120px;
+padding: 13px;
+background-color: #417CFF;
+cursor: pointer;
+color:white;
+transition: .3s;
+}
+.login_btn button:hover{
+width: 150px;
+}
+.login_links{
+display: flex;
+flex-direction: column;
+}
+.login_links a{
+margin: 1px;
+color:black;
+}
+.password_icon{
+position: absolute;
+left: 60px;
+top: 0;
+font-size: 25px;
+color: #4b00ff;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}

@@ -1,0 +1,96 @@
+
+
+.header_about_us .about_us{
+    width: 100%;
+   height: 150px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #00B08B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.header_about_us .about_us_content{
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    z-index: 1;
+    padding: 20px;
+    background-color: #FFFFFF;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+}
+.about_us_content p {
+    margin: 12px 0 12px 0;
+    color:black;
+}
+.about_us_content h1{
+    color:#0B3778;
+}
+.about_us_content h3{
+    color:#0B3778;
+}
+
+.about_us_btns{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.about_us_btns button {
+    border: none;
+    background-color: #5C6A8D;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #222;
+    transition: .6s;
+    width: 140px;
+    height: 40px;
+    margin: 0 0 10px 10px;
+}
+
+.scroll-btn{
+
+position: fixed;
+    right: -50px;
+    bottom: 0px;
+    background-color: #ff5722;
+    color:white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 4px;
+    border:none;
+    font-family: arial, Tahoma;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.scroll-btn.show-btn{
+right: 0;
+bottom: 0;
+}
+
+
+
+@media (max-width: 600px) {
+   
+    .header_about_us .about_us_content {
+        width: 90%;
+    }
+   
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .header_about_us .about_us_content {
+        width: 90%;
+    }
+   
+}

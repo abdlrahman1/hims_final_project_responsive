@@ -1,0 +1,123 @@
+
+
+        body{
+    
+            background-color: #F2F2F2;
+        }
+      
+    
+        .contact_us_parent{
+            
+            width: 40%;
+            height: 450px;
+            margin: 80px auto 80px auto;
+    
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .contact_us_parent h1{
+            text-align: center;
+            color:#403866;
+            padding: 10px;
+        }
+        .contact_us_parent .input{
+            margin: 5px auto 5px auto;
+            width: 80%;
+            height: 50px;
+            border-radius: 30px;
+            padding: 0 30px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+        }
+        .contact_us_parent .textarea{
+            margin: 5px auto 5px auto;
+            width: 80%;
+            height: 50px;
+            border-radius: 30px;
+            padding: 0 30px;
+            outline: none;
+            border: none;
+            font-size: 18px;
+            min-height: 169px;
+            resize: vertical;
+        }
+        .inputs{
+            width: 100%;
+           margin: auto ;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+    
+        }
+        .inputs .send{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        width: 150px;
+        min-width: 50px;
+        height: 62px;
+        background-color: #827ffe;
+        border-radius: 31px;
+        font-family: Ubuntu-Bold;
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.2;
+        text-transform: uppercase;
+        -webkit-transition: all .4s;
+        -o-transition: all .4s;
+        -moz-transition: all .4s;
+        transition: all .4s;
+        position: relative;
+        z-index: 1;
+        margin: auto ;
+       border: none;
+       outline: none;
+       cursor: pointer;
+    
+        }
+        .send:hover{
+            width: 170px;
+            background-color: #403866;
+        }
+    
+        @media (max-width: 600px) {
+      .contact_us_parent {
+        width: 100%;
+      }
+      .input {
+        width: 100%;
+      }
+      .textarea {
+        width: 100%;
+      }
+      .send {
+        width: 100%;
+      }
+    }
+    
+     
+    @media (min-width: 601px) and (max-width: 900px) {
+      .contact_us_parent {
+        width: 100%;
+    
+      }
+      .input {
+        width: 100%;
+      }
+      .textarea {
+        width: 100%;
+      }
+      .send {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 601px) and (max-width: 1100px) {
+      .contact_us_parent {
+        width: 60%;
+    
+      }
+    }
